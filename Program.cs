@@ -10,6 +10,12 @@ using Discord.Commands;
 using Discord.WebSocket;
 using Microsoft.Extensions.DependencyInjection;
 
+//References 
+//https://discordnet.dev/guides/getting_started/first-bot.html
+//https://discordnet.dev/guides/concepts/logging.html
+//https://www.gngrninja.com/code/2019/4/1/c-discord-bot-command-handling
+//https://discordnet.dev/api/Discord.Commands.CommandService.html
+
 namespace botTesting
 {
     class Program
