@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -9,12 +9,12 @@ using Discord;
 using Discord.Commands;
 using Discord.WebSocket;
 using Microsoft.Extensions.DependencyInjection;
-
 //References 
 //https://discordnet.dev/guides/getting_started/first-bot.html
 //https://discordnet.dev/guides/concepts/logging.html
 //https://www.gngrninja.com/code/2019/4/1/c-discord-bot-command-handling
 //https://discordnet.dev/api/Discord.Commands.CommandService.html
+
 
 namespace botTesting
 {
@@ -35,8 +35,8 @@ namespace botTesting
                 .AddSingleton(_client)
                 .AddSingleton(_commands)
                 .BuildServiceProvider();
-//token cannot be inserted on github as public use
-            string token = "INSERT TOKEN";
+
+            string token = "OTQ0NjcxMTI2MzAxMzMxNDk2.YhE_iw.ubQpv1Bj9ReWnglHCVqjL-_EEnM";
 
             _client.Log += _client_Log;
 
