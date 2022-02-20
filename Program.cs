@@ -35,8 +35,8 @@ namespace botTesting
                 .AddSingleton(_client)
                 .AddSingleton(_commands)
                 .BuildServiceProvider();
-
-            string token = "OTQ0NjcxMTI2MzAxMzMxNDk2.YhE_iw.ubQpv1Bj9ReWnglHCVqjL-_EEnM";
+//the TOKEN string should contain the discord bot unique token, however discord will get mad at me if its posted publicly. 
+            string token = "TOKEN";
 
             _client.Log += _client_Log;
 
